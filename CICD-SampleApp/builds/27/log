@@ -1,0 +1,284 @@
+Started by user [8mha:////4Cvnbt1uD51xnnOIIVkfH73z845RaLunam5VGWkIYvY3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZu/dLi1CL9xJTczDwAZ3pnlMAAAAA=[0malfa
+[8mha:////4FbOJcZPc+ntVVL3i+3Lfc9Xg2wlNhbiAPzuLoWJRYhUAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FHrYR2Wq6+teZKYKZ3EpFkGiOaB2791fQGU8MeRanGUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4CyPqG8V+oGSGIV7TxnEt2mHZpeKsdk8KxTCFUHs56v3AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/CICD-SampleApp
+[8mha:////4JQ/WHb2fE0+hBCgjYdOlrFvP141E6E6z8HkoQY0k4eTAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4La5kb/p9tlf5PTNS+iycJwNaSJKS0kc375tHkw5XCOWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4P3YESCWaQjAccJ+F1IuxY7lIjxSIM0QjoScnwO/A2bIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4CMZXuYJB5PicUnndDwsAHYs2DGjoYGSEWAB9bdnNqVhAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] tool
+[8mha:////4DV+jSbNOC5c5o/xlUkZVEy9HwiE7H6LTLnzIP/vT9zxAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4H086y4qipdZTTAczP4lErQNEyDT0UbuAn1GNvhBbbf+AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+[8mha:////4PLsNH3hqzpLjfJXuAdxtBMYbBsX++0grZ7o3ZXCv24gAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
+[8mha:////4HJSpATy52gTbG9Omn2p+cJnfeKV4Pc/0TGGIn6L5qP7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] withEnv
+[8mha:////4N7TnCf3zRkjhyyBrhBtk78WsF54v51ogPqoXzC5LIYFAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] {
+[8mha:////4G240kZVMnP1ZSmjNU7VEFlRQXxuQYPaVv7A0bqgH/CnAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] stage
+[8mha:////4ACwKbB/vQrlofS3vHBrqV/xUOlPruUXqw8gevyU0Cz+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] { (Git Checkout)
+[8mha:////4HjQLHdBF23+8dPnCz4SqyhqRzu7+GC3jIh/NSyZkg9dAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8W7Eii+AAAA[0m[Pipeline] tool
+[8mha:////4Bk+BuC2Cq0ocp3j3E9e6IzLF8TpmO290Vkotfg8+/tzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEG6D8DvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MQLLhXtGI4NcS7U2rGQ3kaWtwkg2s7UK8pSKdJycgIcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSEgMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOeMTC6wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4IuLq66I4PiwnP4U9Nk5YU+IqZMtCFeIqfBRsspehdWOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4HnRrWbO+yHUkNWqt166G0lVJVl2VXBsnE/C0/sUIkNNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/CICD-SampleApp/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/bcreddydevops/chinna-app.git # timeout=10
+Fetching upstream changes from https://github.com/bcreddydevops/chinna-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/bcreddydevops/chinna-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 7c62c9018388d538068246ceb4f600de5526b6ca (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7c62c9018388d538068246ceb4f600de5526b6ca # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main 7c62c9018388d538068246ceb4f600de5526b6ca # timeout=10
+Commit message: "Update index.jsp"
+ > git rev-list --no-walk 7c62c9018388d538068246ceb4f600de5526b6ca # timeout=10
+[8mha:////4HHPf0Y76gTeAwk+h9Kmoy4aJ1E/IBvyTGmH8lW9qLXzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4JIPS+ThX5yXpBforgiHq9Z+edIyVQr5g/QGxPspUBg9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4N4TBglr6VYtOJ9nza4ouKaVylOKi/cvV20P0tNbzrjvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRER2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPjbYp22+AAAA[0m[Pipeline] }
+[8mha:////4L55umgBPRSjS+5LQeKQoJj7H0Af52r7ncILf2TdD4zfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1BzCenzi+AAAA[0m[Pipeline] // stage
+[8mha:////4N2DRUMV7rN/zuGhGpQiLiKi2GqRRlNaOnguPKN/X891AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7Jluz/zyrN+6T+eXCAAAA[0m[Pipeline] stage
+[8mha:////4FCMAJypr9ouBIv65/4qQgJr2N2sfWxu/boWpABbGOO7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Build Maven Application)
+[8mha:////4JTBb72ntAwdcYjarc8UcGVqqNlv2u9NlBFPV85g6LlJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] tool
+[8mha:////4E0Y97UJTmm+5SaCuC37nfaaz5g9ruuBx/Dx0qeSrY2xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4IEXwW1U1xKjuiFWaXMY2hl94QnfQeRvtWoyM/vGEVcqAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSEARBXHUbsvEEsYkxbfi//qS2K0/k1byDrQVXzmKYGRje6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gPmlJ7MwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4GDwYRYGQZeWMpGDewlzbXBimtRyv832SYxbA6NAECUvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4MfzFqLFV13wRa1HB6JSLKUsmR6GQzGoRPrC5B2c6ri4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< in.javahome:hiring >-------------------------
+[INFO] Building hiring Maven Webapp 0.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ hiring ---
+[INFO] Deleting /var/lib/jenkins/workspace/CICD-SampleApp/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ hiring ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CICD-SampleApp/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ hiring ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ hiring ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CICD-SampleApp/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ hiring ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ hiring ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- war:3.3.1:war (default-war) @ hiring ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hiring] in [/var/lib/jenkins/workspace/CICD-SampleApp/target/hiring]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/CICD-SampleApp/src/main/webapp]
+[INFO] Building war: /var/lib/jenkins/workspace/CICD-SampleApp/target/hiring.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.530 s
+[INFO] Finished at: 2023-04-12T16:47:39Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4P4iTRZlxm8+eLI8r4qtKeP5myqws+w5++LX0VriVgDcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4KB68YF/CHn3h2bgF3bfNCSw/B1eKmcBt5t4VSXNnmxZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4GgO/5hbS2OJ+wy8bayAkbPi6q2boJ98aH1rZc0Mn49iAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFyY6ZcvgAAAA==[0m[Pipeline] }
+[8mha:////4IUd8pjZ/J/KXZruHgqhBdmcDCDWhae6xOG9jzvnsxzfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP1xjpDa+AAAA[0m[Pipeline] // stage
+[8mha:////4Ch0+jlmmhwJg2P7CEVDfCq/9sRXl0siSHUJVPB9v/PZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg322y7/edZvQH/S9KIwgAAAA==[0m[Pipeline] stage
+[8mha:////4D7TVz6AWq92AEaEdmPfsLiffK7tJqR5Frkt65frLihUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Generate sonarqube-analysis)
+[8mha:////4DD0cYiVxYtcBkHmJhT/l3YE80EgtVk20qp0y8z0OHmbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] tool
+[8mha:////4NEEOuUb+hpuzX1xeh2dwRG/FuatGRFSwgZNt6lhNnkIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4FSAwRH/gDIKCtltujlD19ol1tNzH/KVUcIXt1z6RUbXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QEJCiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOZZvKjwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4PbcOr9U5ySD17BFhai7mzpp99/ESZFsUZCvrI2hs6A8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
+[8mha:////4Oqe4MTl57YqlCLZTVqtZduupAJqC0yO8InibhkEUPOSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonarqube-8
+[8mha:////4F+5hmvwbMbJTEgJXTlo8I67Xxmk4T2XBfAUj7lE2hMMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4CEc+C/drGMvanE9ZHxKigLbjmZZ0o7D566nBdrmBOhlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] sh
++ mvn sonar:sonar
+[INFO] Scanning for projects...
+[WARNING] The artifact org.codehaus.mojo:sonar-maven-plugin:jar:3.9.1.2184 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.9.1.2184: SonarQube plugin was moved to SonarSource organisation
+[INFO] 
+[INFO] -------------------------< in.javahome:hiring >-------------------------
+[INFO] Building hiring Maven Webapp 0.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- sonar:3.9.1.2184:sonar (default-cli) @ hiring ---
+[INFO] User cache: /var/lib/jenkins/.sonar/cache
+[INFO] SonarQube version: 8.9.10
+[INFO] Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=158ms
+[INFO] Server id: BF41A1F2-AYdw0adfjDg9hYdJHldW
+[INFO] User cache: /var/lib/jenkins/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=113ms
+[INFO] Load/download plugins (done) | time=387ms
+[INFO] Process project properties
+[INFO] Process project properties (done) | time=9ms
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=1ms
+[INFO] Project key: in.javahome:hiring
+[INFO] Base dir: /var/lib/jenkins/workspace/CICD-SampleApp
+[INFO] Working dir: /var/lib/jenkins/workspace/CICD-SampleApp/target/sonar
+[INFO] Load project settings for component key: 'in.javahome:hiring'
+[INFO] Load project settings for component key: 'in.javahome:hiring' (done) | time=25ms
+[INFO] Auto-configuring with CI 'Jenkins'
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=86ms
+[INFO] Auto-configuring with CI 'Jenkins'
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=1608ms
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 3 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for jsp: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module hiring Maven Webapp
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=71ms
+[INFO] Sensor CSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [cssfamily] (done) | time=3ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=11ms
+[INFO] Sensor C# Project Type Information [csharp]
+[INFO] Sensor C# Project Type Information [csharp] (done) | time=1ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=1ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 2 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=38ms
+[INFO] 2/2 source files have been analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=514ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=666ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 2 source files to be analyzed
+[INFO] 2/2 source files have been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=216ms
+[INFO] Sensor VB.NET Project Type Information [vbnet]
+[INFO] Sensor VB.NET Project Type Information [vbnet] (done) | time=0ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=0ms
+[INFO] CPD Executor 1 file had no CPD blocks
+[INFO] CPD Executor Calculating CPD for 0 files
+[INFO] CPD Executor CPD calculation finished (done) | time=0ms
+[INFO] Analysis report generated in 154ms, dir size=97 KB
+[INFO] Analysis report compressed in 44ms, zip size=15 KB
+[INFO] Analysis report uploaded in 22ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://10.0.2.5:9000/dashboard?id=in.javahome%3Ahiring
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://10.0.2.5:9000/api/ce/task?id=AYd2XdaXFLq8BUd7C0r1
+[INFO] Analysis total time: 7.066 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.770 s
+[INFO] Finished at: 2023-04-12T16:47:54Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4FHHVnpAb5Outvu+3krIB1CrYEqYIQqVHHjvgYmYuHJMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BmFfOky+AAAA[0m[Pipeline] }
+[8mha:////4HMtMj2QX6RlulvK6SvuXD6Vksf1TCzXBQXyEFp/3YAWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN37dbx6+AAAA[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4KctxIgkQ3mQfFYrAbgPoxA6hEIMOTTOIP0irO/K1c/+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgWgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN0af/O++AAAA[0m[Pipeline] }
+[8mha:////4IBtdvvmFF65ByxVTgNbUd19km7U1AIKRLUvB+eqFXYqAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgIQQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAgGI9Er4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4NjC7+AnMUykXE1SleKaJ8Qd2iYvnEk6a5SPhU3WvinCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AxM3Uc74AAAA=[0m[Pipeline] }
+[8mha:////4MjZHr4Lk922AeFZttUKwcvJnrFS6OWOTAqPafJghn7qAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/bT4EhvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FLT+WnKGILdZhQ321XTMR4fxMSgnZRAitXCfEs+j377AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUkJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3u2z7zedZvQF278+7wgAAAA==[0m[Pipeline] stage
+[8mha:////4IHWA/SoxaJkEY5c5ayH5mKFHjyIa/CnfEDB1XRVfwvjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] { (Upload War file to Nexus)
+[8mha:////4Fw3/vsA5yT0+BdkCJU9PtW5pIT5O1BgSGcGVA0WF2nAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] tool
+[8mha:////4NqWPelsVLKbSkH/RD2JpBlE9TpqmM+rQQKL65GZVAFzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN8KVM6++AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Danzws5MHTsVENhDNc4DWqSS3hwTDCHCXGP/b8GdXy6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDx7wurrCAAAA[0m[Pipeline] withEnv
+[8mha:////4KIpxx+6qfAizHz5pn+uYT60VMJS9wvrD/iRISLVFLyxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] {
+[8mha:////4FVaKDxFNUG+Cs1EJ24ES5bmugCrPedBmg/6N7eezGrDAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxcaxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NlEULJr4AAAA=[0m[Pipeline] nexusArtifactUploader
+Uploading artifact hiring.war started....
+GroupId: in.javahome
+ArtifactId: hiring
+Classifier: 
+Type: war
+Version: 0.1
+File: hiring.war
+Repository:chinna-app
+Uploading: http://10.0.2.6:8081/repository/chinna-app/in/javahome/hiring/0.1/hiring-0.1.war
+100 % completed (1.7 kB / 1.7 kB).
+Uploaded: http://10.0.2.6:8081/repository/chinna-app/in/javahome/hiring/0.1/hiring-0.1.war (1.7 kB at 25 kB/s)
+Uploading artifact hiring.war completed.
+[8mha:////4FqMSTKxVA9co8kWTEe4kbI7JHicNB1GgbhuxMqSe8QHAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZSwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfmYKm674AAAA=[0m[Pipeline] }
+[8mha:////4MfZE1UzLUxAB85FGY+R8pe79RYehW9l8cy30I4D1/2aAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHaAPdtvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4MxJ0xAqMeFxOmUewDfl130gFGYYKXyrN+gapB2SIpHyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHwJ8HWvgAAAA==[0m[Pipeline] }
+[8mha:////4JsU/ktI8/yDGY4FZ1iv73RL0NkJjLGwVeF9kG3SalLxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSBhpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPzNcIbe+AAAA[0m[Pipeline] // stage
+[8mha:////4HecUQ70rOfn1SDfrGCZzE4+OFhc73AI63IrG59negneAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWBBTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsdtn2zedZvQFOJntBwgAAAA==[0m[Pipeline] stage
+[8mha:////4HeDrxrefiHEGOOC0+RU4JoEZBDr0W018GMnIog+tJKGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] { (Deploy War file to Tomcat)
+[8mha:////4E2X9DDCfXzOdLP9FHvfJHNrwdb8kRwdQ8dr6n2i5NwjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHlNhISvgAAAA==[0m[Pipeline] tool
+[8mha:////4H5zNz+B9FRuA41hGbgQyihSolSQQsQ/yoDV78DvgoJOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAEioFNdvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4ExqFGDfpU5Mfp6Dd1ztXboe6p31POa/lbpbUcfFszj/AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADXjXKuwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4FHXRGwhCcpI2m6EM14QJme37SIt+6nxryzH1ALN+3Y3AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0ogtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+urdAcIAAAA=[0m[Pipeline] {
+[8mha:////4BxblREG0jOGEDfewdLqz+17JdifwByiJzBlpiZekijEAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] sshagent
+[ssh-agent] Using credentials admin1 (tomcat-credentials)
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-aLc6dMapRWnR/agent.13139
+SSH_AGENT_PID=13141
+Running ssh-add (command line suppressed)
+Identity added: /var/lib/jenkins/workspace/CICD-SampleApp@tmp/private_key_11702815415709128095.key (root@jenkins)
+[ssh-agent] Started.
+[8mha:////4BS00VPAxY2U9cokMDSpFENIzOuVyXEuapHzweF2yeHaAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] {
+[8mha:////4HnNvX37G/n73EGwzRkPefucvsbcc3/RpF5Y2dY0tu0hAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] sh
++ scp -o StrictHostKeyChecking=no target/hiring.war admin1@10.0.2.7:/opt/tomcat-9/webapps
++ ssh -o StrictHostKeyChecking=no admin1@10.0.2.7 /opt/tomcat-9/bin/shutdown.sh
+Apr 12, 2023 4:47:56 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+Apr 12, 2023 4:47:56 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Error stopping Catalina
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at java.net.Socket.connect(Socket.java:556)
+	at java.net.Socket.<init>(Socket.java:452)
+	at java.net.Socket.<init>(Socket.java:229)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:393)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:483)
+
++ ssh -o StrictHostKeyChecking=no admin1@10.0.2.7 /opt/tomcat-9/bin/startup.sh
+Tomcat started.
+[8mha:////4LDYaB9Vb4QHduZLSkawaXDzFMSRwDErEMSNtTHpD/YFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF2jKA0vgAAAA==[0m[Pipeline] }
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 13141 killed;
+[ssh-agent] Stopped.
+[8mha:////4OTer1gCfF50iRN1viZoxZ7X45M1k34qtKG86Smu/VrqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFCQkNvvgAAAA==[0m[Pipeline] // sshagent
+[8mha:////4G1BocjpLSa0ra/dX+DQaLiOioFxJzCo54umK2ObZoPRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRKEKBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w96ANCevgAAAA==[0m[Pipeline] }
+[8mha:////4KTlwz7zoU8GQxl8cCA7Jt6IFJW5UqX6TfoyIgxj4/I8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9lgoXMvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4I83H5qpGDklEUAA4s8joNF6x0SJTyLjntHB+mluAr26AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334AfifkT74AAAA=[0m[Pipeline] }
+[8mha:////4DRgrdcsRoqEbCEnTFDRoOOJPM8bL0KQJXSi14zFkZzKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w9hpbEdvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FU1ewwh9EC6u5Fp41ZnapbYbFrG/MCJALwmN89sDAuFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rm2uw+yEG1NvgAAAA==[0m[Pipeline] }
+[8mha:////4Av4yEFfc1SptE3dqJY849xwyZqs3Sxgt+LIq+skO48RAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRqhSIitZKwwtMbIwT686xLyQVL+Jr/AGLSFRssdrZZl5v2KYIJ4pW9AYHh6lzIvjJ5iVmisPN0yx6uoqOMJE3ojVzS9qcV2yJDawpSthI2BnsPCWHlmEve/VQlVdoqwvH/B0llE6P8IRCZjOryF9YIhzuk06EP89fASwhMJRNk6uuP62SOB++AAAA[0m[Pipeline] // withEnv
+[8mha:////4FMvk40YQTog9Z3fEpZ/HEMT3BTlh/yfj5uKri75x1PTAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AFmDbDS9AAAA[0m[Pipeline] }
+[8mha:////4FkuDVqBBb7WxYLOrnPdNsekub0qk73iSAPo9aat+gvSAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpKBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AEo/aJe9AAAA[0m[Pipeline] // node
+[8mha:////4PTdygRozr0ykOSV/1k1eZ2SqExOfERQxGdbc/+xB+AOAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPeN8pHL0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

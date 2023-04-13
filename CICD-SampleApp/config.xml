@@ -1,0 +1,79 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1289.vd1c337fd5354">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2125.vddb_a_44a_d605e"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2125.vddb_a_44a_d605e"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2125.vddb_a_44a_d605e">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3653.v07ea_433c90b_4">
+    <script>pipeline{
+    agent any
+    tools{
+        maven &apos;maven-3.9&apos;
+    }
+    stages{
+        stage(&apos;Git Checkout&apos;){
+            steps{
+                git url:&apos;https://github.com/bcreddydevops/chinna-app.git&apos;,branch:&apos;main&apos;
+            }
+        }
+        stage(&apos;Build Maven Application&apos;){
+            steps{
+                sh &apos;mvn clean package&apos;
+            }
+        }
+        stage(&apos;Generate sonarqube-analysis&apos;){
+            steps{
+                withSonarQubeEnv(installationName: &apos;sonarqube-8&apos;, credentialsId: &apos;jenkins-sonar-token&apos;) {
+                    sh &apos;mvn sonar:sonar&apos;
+                }
+            }
+        }
+        stage(&apos;Upload War file to Nexus&apos;){
+            steps{
+                nexusArtifactUploader artifacts: [
+                   [
+                       artifactId: &apos;hiring&apos;, 
+                       classifier: &apos;&apos;, 
+                       file: &apos;target/hiring.war&apos;, 
+                       type: &apos;war&apos;
+                   ] 
+                ],
+                credentialsId: &apos;nexus-credentials&apos;, 
+                groupId: &apos;in.javahome&apos;, 
+                nexusUrl: &apos;10.0.2.6:8081&apos;, 
+                nexusVersion: &apos;nexus3&apos;, 
+                protocol: &apos;http&apos;, 
+                repository: &apos;chinna-app&apos;, 
+                version: &apos;0.1&apos;
+
+            }
+        }
+        stage(&apos;Deploy War file to Tomcat&apos;){
+            steps{
+                sshagent([&apos;tomcat-credentials&apos;]) {
+                    sh &quot;&quot;&quot;
+                        scp -o StrictHostKeyChecking=no target/*.war admin1@10.0.2.7:/opt/tomcat-9/webapps
+                        ssh -o StrictHostKeyChecking=no admin1@10.0.2.7 /opt/tomcat-9/bin/shutdown.sh
+                        ssh -o StrictHostKeyChecking=no admin1@10.0.2.7 /opt/tomcat-9/bin/startup.sh
+                        
+                    &quot;&quot;&quot;
+                }
+            }
+        }
+        
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
